@@ -4,19 +4,16 @@ $black2: #495057;
 @import 'bootstrap/bootstrap.scss';
 
 body{
-	font-family: 'Monserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: $black2;
 }
 
-h1,h2,h3,h4,h5,h6
-{
-margin:0;
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
 }
 
-
-img
-{
-max-width:100%;
+img{
+	max-width: 100%;
 }
 
 a, .btn-link{
@@ -49,7 +46,6 @@ a, .btn-link{
 		border-radius: 4px;
 	}
 }
-
 
 // Header
 
@@ -92,8 +88,7 @@ header{
 		}
 	}
 
-
-
+}
 
 .profile-options-modal{
 		.profile-options-list{
@@ -118,7 +113,6 @@ header{
 		}
 	}
 
-}
 
 
 // Main
@@ -140,7 +134,6 @@ header{
 		border-radius: 4px;
 	}
 }
-
 
 .products-list-container{
 	padding-top: 15px;
@@ -237,5 +230,3 @@ header{
 		}
 	}
 }
-
-
